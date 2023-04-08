@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><Form></title>
+</head>
+<body>
+    <h1>Formular</h1>
+    <form action="result.html" method="GET" enctype="multipart/form-data">
+       <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="username" required> 
+       </div>
+       <div>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" required>    
+       </div>
+       
+    <br>
+    <br>
+    <br>
+       <div>
+            <legend>Payment methods:</legend>
+            <br>
+            <input type="radio" name="payment" value="cash payment">Cash payment
+            <input type="radio"name="payment" value="card payment">Card payment
+            <input type="radio" name="payment" value="banc transfer">Bank transfer
+         <div>
+            <br>
+            <br>
+            <br>
+        <div>
+            <input type="checkbox">I would like to receive information by email. <br>
+            <input type="checkbox">I agree to the Terms and Conditions.
+
+        </div>    
+    
+    <br>
+    <br>
+    <br>
+       <button type="reset">Reset</button>
+       <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
